@@ -1,0 +1,25 @@
+{
+  "name": "now-iso",
+  "version": "1.0.0",
+  "private": true,
+  "description": "print the current date/time w/delta in ISO format",
+  "license": "MIT",
+  "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
+  "homepage": "https://github.com/pmuellr/now-iso",
+  "bin": {
+    "now-iso": "now-iso.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmuellr/now-iso.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmuellr/now-iso/issues"
+  },
+  "standard": {
+    "ignore": [
+      "tmp/**/*",
+      "docs/**/*"
+    ]
+  }
+}
